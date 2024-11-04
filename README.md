@@ -119,4 +119,6 @@ FROM [dbo].[CustomerData]
 ### Data Visualization
 - **Using Excel**
 
-![Total Revenue by Region](
+![Total Revenue by Region](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Total%20Reveue%20by%20region%20cd.png)
+
+![Revenue by Subscription Type](
