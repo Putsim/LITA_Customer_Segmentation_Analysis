@@ -134,6 +134,6 @@ FROM [dbo].[CustomerData]
 
 - **Using Power BI**
 
-  ![Customer Segmentation Report Dasboard](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Power%20BI%20cd.png)
+![Customer Segmentation Report Dasboard](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Power%20BI%20cd.png)
   
 
