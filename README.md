@@ -123,4 +123,4 @@ FROM [dbo].[CustomerData]
 
 ![Revenue by Subscription Type](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Revenue%20by%20Subscription%20type%20cd.png)
 
-![Customer Segmentation by Region & Type](
+![Customer Segmentation by Region & Type](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Customer%20Segmentation%20by%20Region%20and%20type%20cd.png)
