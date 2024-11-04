@@ -129,4 +129,10 @@ FROM [dbo].[CustomerData]
 
 ![Average Revenue by Subscription Type](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Average%20Revenue%20by%20Subscription%20type%20cd.png)
 
-![Monthly Revenue Trend]()
+![Monthly Revenue Trend](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Monthly%20Revenue%20trend%20cd.png)
+
+
+- **Using Power BI**
+
+  ![]()
+
