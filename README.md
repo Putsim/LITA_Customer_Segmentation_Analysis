@@ -3,6 +3,29 @@ This project demonstrates my ability to analyze and derive actionable insights f
 
 # Customer Segmentation for a Subscription Service
 ---
+
+## Table of Contents
+[Project Overview](#project-overview)
+
+[Data Used](#data-used)
+
+[Tools Used](#tools-used)
+
+[Data Cleaning and Preparation](#data-cleaning-and-preparation)
+
+[Exploratory Data Analysis](#exploratory-data-analysis)
+
+[Data Analysis](#data-analysis)
+
+[Data Visualization](#data-visualization)
+
+[Results and Insights](#results-and-insights)
+
+[Conclusion](#conclusion)
+
+[Recommendations](#recommendations)
+
+
 ### Project Overview
 In this project, I focused on analyzing customer data for a subscription service to uncover key segments, track subscription patterns, and identify trends in cancellations and renewals. The goal is to gain insights into customer behavior and subscription dynamics, ultimately delivering an interactive Power BI dashboard that highlights these findings.
 
@@ -22,7 +45,7 @@ The dataset used for this analysis is the **"Customer_data.csv"** file, containi
 - **SQL**: For querying customer behaviors, subscription types, and cancellations.
 - **Power BI**: For creating an interactive dashboard to visualize customer trends.
 
-### Data Cleaning/ Preparation
+### Data Cleaning and Preparation
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
