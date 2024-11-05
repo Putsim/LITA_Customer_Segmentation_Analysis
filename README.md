@@ -1,7 +1,7 @@
 # LITA_Customer_Segmentation_Analysis
 This project demonstrates my ability to analyze and derive actionable insights from Subscription service customer data using Excel, SQL, and Power BI. The objective was to explore customer preferences and visualize key trends including revenue trends, average subscription duration, and cancellation rates across regions and subscription types. 
 
-# Project 2: Customer Segmentation for a Subscription Service
+# Customer Segmentation for a Subscription Service
 ---
 ### Project Overview
 In this project, I focused on analyzing customer data for a subscription service to uncover key segments, track subscription patterns, and identify trends in cancellations and renewals. The goal is to gain insights into customer behavior and subscription dynamics, ultimately delivering an interactive Power BI dashboard that highlights these findings.
@@ -168,5 +168,58 @@ FROM [dbo].[CustomerData]
 - **Using Power BI**
 
 ![Customer Segmentation Report Dasboard](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Power%20BI%20cd.png)
-  
 
+### Results and Insights
+Here are the key findings and insights from the data analysis:
+
+- **Revenue and Subscription Overview**:
+  - **Total Revenue**: $67.5 million generated overall.
+  - **Average Revenue per Subscription**: $2,000.
+  - **Maximum Subscription Duration**: 366 days.
+
+- **Regional Insights**:
+  - **Top Revenue Region**: The **East region** leads with $16.9 million in total revenue.
+  - **Subscriber Count**: The East region has the highest number of subscribers (8,488), followed by South, North, and West.
+  - **Peak Sales by Region**:
+    - **East**: July.
+    - **North**: January.
+    - **South**: June.
+    - **West**: August.
+
+- **Subscription Type and Customer Segmentation**:
+  - **Subscription Distribution**:
+    - **Basic**: 50.1% (highest adoption rate).
+    - **Premium**: 25%.
+    - **Standard**: 24.9%.
+  - **Regional Preferences**:
+    - **Basic Plan**: Preferred in **North and East** regions.
+    - **Standard Plan**: Preferred in the **West** region.
+    - **Premium Plan**: Preferred in the **South** region.
+
+- **Cancellations and Revenue Loss**:
+  - **Total Revenue Lost through Cancellations**: $30.3 million.
+  - **Cancellation Rate**: 45% of customers have canceled their subscriptions.
+  - **Peak Cancellation Period**: April.
+  - **Regions with Highest Cancellation Rates**: West, South, and North.
+  - **Uniform Cancellation Rate**: 60% across the North, South, and West regions.
+
+- **Subscription Trends**:
+  - **Monthly Subscription Peak**: July saw the highest subscription rate, followed by a significant drop in September.
+
+These insights highlight the East region’s revenue strength, the high adoption of Basic subscriptions, and critical areas for improvement in customer retention.
+
+Here’s a focused conclusion and actionable recommendations:
+
+### Conclusion
+The **East region** is the primary revenue driver, while the **Basic subscription** plan has the highest adoption rate across regions. However, a high **cancellation rate** (45%) has led to a substantial revenue loss of $30.3 million, with cancellations peaking in April and concentrated in the **West, South, and North** regions. Monthly subscriptions peaked in July, indicating seasonal interest, though a significant decline followed in September. Subscription preferences also vary regionally, with each area favoring different plans.
+
+### Recommendations
+1. **Customer Retention Initiatives**: Focus on reducing cancellations in the **West, South, and North** regions through loyalty programs, targeted retention offers, or customer feedback initiatives.
+2. **Promotion and Engagement**: Prepare for the **July peak** by running targeted marketing campaigns and upselling strategies for the Basic plan. Track and address any service issues that could help retain customers post-July.
+3. **Tailored Marketing by Region**:
+   - **North and East**: Promote Basic plans with added value options (e.g., discounts on renewals).
+   - **South**: Highlight Premium plan features to reinforce value perception.
+   - **West**: Improve satisfaction with the Standard plan to prevent cancellations.
+4. **Analyze Cancellation Trends**: Investigate the reasons for the high cancellation rate, particularly in **April**, to develop data-driven retention strategies.
+
+By focusing on regional preferences, seasonality, and retention efforts, these actions aim to maximize revenue while minimizing cancellations across all regions.
