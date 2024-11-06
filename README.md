@@ -41,15 +41,22 @@ The dataset used for this analysis is the **"Customer_data.csv"** file, containi
 8. Revenue
 
 ### Tools used:
-- **Excel**: For identifying subscription patterns using pivot tables.
-- **SQL**: For querying customer behaviors, subscription types, and cancellations.
-- **Power BI**: For creating an interactive dashboard to visualize customer trends.
+- **Excel** [Download Here](https://www.microsoft.com/en-ng/)
+  -  For identifying subscription patterns using pivot tables.
+    
+- **SQL** [Download Here](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)
+  -  For querying customer behaviors, subscription types, and cancellations.
+    
+- **Power BI** [Download Here](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+  - For creating an interactive dashboard to visualize customer trends.
 
 ### Data Cleaning and Preparation
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
-3. Data cleaning and formatting.
+3. Conversion of dataset to table.
+4. Removal of duplicates.
+5. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
 In this project, I analyzed customer data for a subscription service to uncover key segments, understand subscription behaviors, and identify trends in cancellations and renewals. Below is the exploratory data analysis process.
@@ -86,6 +93,8 @@ Customer Segments visualize customer demographics and subscription behavior by r
 - **Key Performance Indicators (KPIs):** Summarize active versus canceled subscriptions, average subscription duration, and customer retention rates for a quick snapshot of the service's health.
 
 ### Data Analysis
+**1. Excel Formula**
+
 - _**Most Popular Subscription Type**_
 ```Excel
 =COUNTIF(Table2[SubscriptionType],"Basic")
@@ -95,6 +104,8 @@ Customer Segments visualize customer demographics and subscription behavior by r
 ```Excel
 = F2-E2
 ```
+
+**2. SQL Query**
 
 - _**Total number of customers from each region**_
 ```SQL
@@ -156,6 +167,8 @@ SELECT
 FROM [dbo].[CustomerData]
 ```
 
+**3. DAX**
+
 - _**Average Revenue per Subscription Type**_
 ```DAX
 = AVERAGE(CustomerData[Revenue])
@@ -166,7 +179,7 @@ FROM [dbo].[CustomerData]
 = DIVIDE(COUNTROWS(FILTER(CustomerData, CustomerData[Canceled]= TRUE)),COUNTROWS(CustomerData))
 ```
 
-- **Subscription Duration**_
+- _**Subscription Duration**_
 ```DAX
  = DATEDIFF(CustomerData[SubscriptionStart], CustomerData[SubscriptionEnd], DAY)
 ```
@@ -230,8 +243,6 @@ Here are the key findings and insights from the data analysis:
   - **Monthly Subscription Peak**: July saw the highest subscription rate, followed by a significant drop in September.
 
 These insights highlight the East region’s revenue strength, the high adoption of Basic subscriptions, and critical areas for improvement in customer retention.
-
-Here’s a focused conclusion and actionable recommendations:
 
 ### Conclusion
 The **East region** is the primary revenue driver, while the **Basic subscription** plan has the highest adoption rate across regions. However, a high **cancellation rate** (45%) has led to a substantial revenue loss of $30.3 million, with cancellations peaking in April and concentrated in the **West, South, and North** regions. Monthly subscriptions peaked in July, indicating seasonal interest, though a significant decline followed in September. Subscription preferences also vary regionally, with each area favoring different plans.
