@@ -24,9 +24,11 @@
 
 
 ### Project Overview
+---
 In this project, I focused on analyzing customer data for a subscription service to uncover key segments, track subscription patterns, and identify trends in cancellations and renewals. The goal is to gain insights into customer behavior and subscription dynamics, ultimately delivering an interactive Power BI dashboard that highlights these findings.
 
 ### Data used:
+---
 The dataset used for this analysis is the **"Customer_data.csv"** file, containing detailed information about each sale made. It comprises of 8 columns;
 1. Customer Id
 2. Customer Name
@@ -38,6 +40,7 @@ The dataset used for this analysis is the **"Customer_data.csv"** file, containi
 8. Revenue
 
 ### Tools used:
+---
 - **Excel** [Download Here](https://www.microsoft.com/en-ng/)
   -  For identifying subscription patterns using pivot tables.
     
@@ -48,6 +51,7 @@ The dataset used for this analysis is the **"Customer_data.csv"** file, containi
   - For creating an interactive dashboard to visualize customer trends.
 
 ### Data Cleaning and Preparation
+---
 In the initial data preparation phase, I performed the following tasks:
 1. Data loading and inspection.
 2. Handling missing variables.
@@ -56,6 +60,7 @@ In the initial data preparation phase, I performed the following tasks:
 5. Data cleaning and formatting.
 
 ### Exploratory Data Analysis
+---
 In this project, I analyzed customer data for a subscription service to uncover key segments, understand subscription behaviors, and identify trends in cancellations and renewals. Below is the exploratory data analysis process.
 
 **1. Excel Analysis:**
@@ -90,6 +95,7 @@ Customer Segments visualize customer demographics and subscription behavior by r
 - **Key Performance Indicators (KPIs):** Summarize active versus canceled subscriptions, average subscription duration, and customer retention rates for a quick snapshot of the service's health.
 
 ### Data Analysis
+---
 **1. Excel Formula**
 
 - _**Most Popular Subscription Type**_
@@ -183,6 +189,7 @@ FROM [dbo].[CustomerData]
 
 
 ### Data Visualization
+---
 - **Using Excel**
 
 ![Total Revenue by Region](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Total%20Reveue%20by%20region%20cd.png)
@@ -203,6 +210,7 @@ FROM [dbo].[CustomerData]
 ![Customer Segmentation Report Dasboard](https://github.com/Putsim/LITA_Customer_Segmentation_Analysis/blob/main/Power%20BI%20cd.png)
 
 ### Results and Insights
+---
 Here are the key findings and insights from the data analysis:
 
 - **Revenue and Subscription Overview**:
@@ -242,9 +250,11 @@ Here are the key findings and insights from the data analysis:
 These insights highlight the East region’s revenue strength, the high adoption of Basic subscriptions, and critical areas for improvement in customer retention.
 
 ### Conclusion
+---
 The **East region** is the primary revenue driver, while the **Basic subscription** plan has the highest adoption rate across regions. However, a high **cancellation rate** (45%) has led to a substantial revenue loss of $30.3 million, with cancellations peaking in April and concentrated in the **West, South, and North** regions. Monthly subscriptions peaked in July, indicating seasonal interest, though a significant decline followed in September. Subscription preferences also vary regionally, with each area favoring different plans.
 
 ### Recommendations
+---
 1. **Customer Retention Initiatives**: Focus on reducing cancellations in the **West, South, and North** regions through loyalty programs, targeted retention offers, or customer feedback initiatives.
 2. **Promotion and Engagement**: Prepare for the **July peak** by running targeted marketing campaigns and upselling strategies for the Basic plan. Track and address any service issues that could help retain customers post-July.
 3. **Tailored Marketing by Region**:
