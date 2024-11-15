@@ -25,11 +25,11 @@
 
 ### Project Overview
 ---
-In this project, I focused on analyzing customer data for a subscription service to uncover key segments, track subscription patterns, and identify trends in cancellations and renewals. The goal is to gain insights into customer behavior and subscription dynamics, ultimately delivering an interactive Power BI dashboard that highlights these findings.
+In this project, I focused on analyzing customer data for a subscription service to uncover key segments, track subscription patterns, and identify trends in cancellations and renewals. The goal is to gain insights into customer behavior and subscription dynamics, ultimately delivering an interactive Power BI dashboard highlighting these findings.
 
 ### Data used:
 ---
-The dataset used for this analysis is the **"Customer_data.csv"** file, containing detailed information about each sale made. It comprises of 8 columns;
+The dataset used for this analysis is the **"Customer_data.csv"** file provided by the _Ladies in Tech Africa Data Analysis Program_. For more info see [The Incubator Hub](theincubatorng.org). It contains detailed information about each sale made comprising 8 columns;
 1. Customer Id
 2. Customer Name
 3. Region
