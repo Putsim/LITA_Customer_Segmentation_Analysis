@@ -29,7 +29,7 @@ In this project, I focused on analyzing customer data for a subscription service
 
 ### Data used:
 ---
-The dataset used for this analysis is the **"Customer_data.csv"** file provided by the _Ladies in Tech Africa Data Analysis Program_. For more info see [The Incubator Hub](theincubatorng.org). It contains detailed information about each sale made comprising 8 columns;
+The dataset used for this analysis is the **"Customer_data.csv"** file provided by the _Ladies in Tech Africa Data Analysis Program_. For more info see [The Incubator Hub](https://www.theincubatorng.org/). It contains detailed information about each sale made comprising 8 columns;
 1. Customer Id
 2. Customer Name
 3. Region
